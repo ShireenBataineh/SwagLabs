@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-16T14:21:08 EET" name="Default suite" finished-at="2025-10-16T14:21:17 EET" duration-ms="9066">
+    <groups>
+    </groups>
+    <test started-at="2025-10-16T14:21:08 EET" name="Default test" finished-at="2025-10-16T14:21:17 EET" duration-ms="9066">
+      <class name="Testcase1">
+        <test-method is-config="true" signature="BTest()[pri:0, instance:Testcase1@3212a8d7]" started-at="2025-10-16T14:21:08 EET" name="BTest" finished-at="2025-10-16T14:21:10 EET" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BTest -->
+        <test-method signature="login()[pri:1, instance:Testcase1@3212a8d7]" started-at="2025-10-16T14:21:10 EET" name="login" finished-at="2025-10-16T14:21:10 EET" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:2, instance:Testcase1@3212a8d7]" started-at="2025-10-16T14:21:10 EET" name="addToCart" finished-at="2025-10-16T14:21:11 EET" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="remove()[pri:3, instance:Testcase1@3212a8d7]" started-at="2025-10-16T14:21:11 EET" name="remove" finished-at="2025-10-16T14:21:11 EET" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+        <test-method signature="addAfterRemove()[pri:4, instance:Testcase1@3212a8d7]" started-at="2025-10-16T14:21:11 EET" name="addAfterRemove" finished-at="2025-10-16T14:21:12 EET" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAfterRemove -->
+        <test-method signature="checkAddToCart()[pri:5, instance:Testcase1@3212a8d7]" started-at="2025-10-16T14:21:12 EET" name="checkAddToCart" finished-at="2025-10-16T14:21:14 EET" duration-ms="1700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddToCart -->
+        <test-method signature="logout()[pri:6, instance:Testcase1@3212a8d7]" started-at="2025-10-16T14:21:14 EET" name="logout" finished-at="2025-10-16T14:21:15 EET" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Testcase1@3212a8d7]" started-at="2025-10-16T14:21:15 EET" name="afterTest" finished-at="2025-10-16T14:21:17 EET" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
