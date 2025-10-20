@@ -41,33 +41,35 @@ WebDriver driver=new FirefoxDriver();
 	public void addAllItemsToCart() throws InterruptedException
 	{
 		//To print the prices
-		List <WebElement> price=driver.findElements(By.className("inventory_item_price"));
-		System.out.println(price.size());
-		for(int i=0;i<price.size();i++)
-		{
-			System.out.println(price.get(i).getText());
-
-		}
+//		System.out.println(price.size());
+//		for(int i=0;i<price.size();i++)
+//		{
+//			System.out.println(price.get(i).getText());
+//
+//		}
 		List <WebElement> adds=driver.findElements(By.cssSelector(".btn_primary.btn_inventory"));
+		List <WebElement> price=driver.findElements(By.className("inventory_item_price"));
 		List <WebElement> name=driver.findElements(By.className("inventory_item_name"));
 		for(int i=0;i<price.size();i++)
 		{
-			if(i==0 || i==2 ||i==4) {
+			if(i%2==0) {
 			    adds.get(i).click();
-			    System.out.println(price.get(i).getText());
 			    System.out.println(name.get(i).getText());
-			    System.out.println("This item "+name.get(i).getText()+"has been added");}
+			    System.out.println(price.get(i).getText());
+			    System.out.println("This item "+name.get(i).getText()+"has been added");
+			    System.out.println();}
 			
 			else
 				{
-		    System.out.println(price.get(i).getText());
 		    System.out.println(name.get(i).getText());
-		    System.out.println("This item "+name.get(i).getText()+"has NOT been added");}		
+		    System.out.println(price.get(i).getText());
+		    System.out.println("This item "+name.get(i).getText()+"has NOT been added");		
+		    System.out.println();}
 
 
 		}
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 	}
 	
